@@ -118,7 +118,7 @@ export default function Reviews() {
 						/>
 					</svg>
 
-					<div className="font-sans">{composite}</div>
+					<div className="font-sans">5.0</div>
 				</div>
 				<div className="flex items-center space-x-2">
 					<svg
@@ -147,7 +147,7 @@ export default function Reviews() {
 							<div>{title}</div>
 							<div className="flex items-center space-x-4">
 								<progress
-									class="progress w-48 h-1"
+									className="progress w-48 h-1"
 									value="100"
 									max="100"
 								></progress>
